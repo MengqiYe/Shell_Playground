@@ -1,0 +1,1 @@
+virt-install --name ubuntu_temp --ram=2048 --vcpus=1 --cpu host --hvm --disk path=/var/lib/libvirt/images/ubuntu_temp,size=10 --location /proj/iso/ubuntu-20.04-desktop-amd64.iso --network bridge=br0 --graphics vnc --boot uefi

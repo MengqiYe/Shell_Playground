@@ -1,0 +1,19 @@
+systemctl list-units
+systemctl list-units | grep .service
+systemctl status ssh.service
+sudo systemctl disable ssh.service
+sudo systemctl enable ssh.service
+sudo systemctl stop ssh.service
+sudo systemctl start ssh.service
+
+systemctl --failed
+
+systemctl reboot
+systemctl poweroff
+systemctl suspend
+
+journalctl
+
+# Show from this boot
+journalctl -b
+
